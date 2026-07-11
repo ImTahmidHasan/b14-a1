@@ -103,3 +103,47 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+#speakers h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+}
+.speakers-grid .speaker-card{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+.speakers-grid .speaker-card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.speakers-grid .card-content{
+    padding: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    height: fit-content;
+}
+.speakers-grid .card-content a{
+    text-decoration: none;
+    color: #1a3bf3;
+    font-weight: 500;
+}
