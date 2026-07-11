@@ -147,3 +147,125 @@ header{
     color: #1a3bf3;
     font-weight: 500;
 }
+#pricing{
+    width: 100%;
+    height: auto;
+}
+#pricing h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#pricing p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+.pricing-card{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.pricing-card div ul{
+    padding: 10px 0;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.pricing-card div ul li{
+    font-size: 14px;
+}
+.pricing-card h3{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.highlighted{
+    background-color: #232323 !important;
+    color: #fff;
+}
+.highlighted h3{
+    color: #fff;
+}
+.highlighted p{
+    color: #fff;
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.btn-outline-secondary{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn-outline-primary{
+    padding: 10px 20px;
+    color: #1a3bf3;
+    background-color: transparent;
+    border: 1px solid #1a3bf3;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.highlighted .btn{
+    width: 100%;
+}
+hr{
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+#contact{
+    width: 100%;
+    height: auto;
+}
+#contact h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contact p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+#contact form input, #contact form textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: #232323;
+    color: #fff;
+    text-align: center;
+}
